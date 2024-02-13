@@ -112,3 +112,7 @@ out:
     if(res == EPOSTROUT) printf("EPOSTROUT:" TERM_TEST "`post_test_routine` failed!\n");
     return res;
 }
+
+void print_freq(const char* msg) {
+    printf(FAILED_COLOR "Failed Requirement: %s\n" COLOR_RESET, msg);
+}

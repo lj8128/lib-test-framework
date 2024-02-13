@@ -16,7 +16,7 @@ int init_test_catalog(TestCatalog* catalog) {
         goto out;
     }
 
-    init_table(catalog->test_registry, MAX_TEST_REGISTRY_SLOTS);
+    init_table(catalog->test_registry, TEST_REGISTRY_SLOTS);
 
 out:
     if(res == EMEM) printf("EMEM: Failed to allocate memory for "
