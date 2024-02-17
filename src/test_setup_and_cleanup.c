@@ -1,4 +1,5 @@
 #include "test_setup_and_cleanup.h"
+#include "status_test_framework.h"
 #include "config_test_framework.h"
 #include <stdio.h>
 #include <stdlib.h>

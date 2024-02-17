@@ -8,14 +8,4 @@
 #define EPOSTROUT -4
 #define ENOTEST -5
 
-typedef enum {
-    TEST_PASSED = 0,
-    TEST_FAILED 
-} TestResult;
-
-typedef enum {
-    ROUTINE_SUCCEEDED = 0,
-    ROUTINE_FAILED 
-} RoutineResult;
-
 #endif

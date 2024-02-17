@@ -2,7 +2,7 @@
 #define TEST_SETUP_AND_CLEANUP_H
 
 #include <stdbool.h>
-#include "status_test_framework.h"
+#include "status_tests_and_routines.h"
 #include "hash_table.h"
 
 typedef struct test {

@@ -2,6 +2,7 @@
 #include "hash_table.h"
 #include "config_test_framework.h"
 #include "status_test_framework.h"
+#include "status_tests_and_routines.h"
 #include <stdio.h>
 
 static int run_test(Test* test, int* num_failed_tests, int* test_count) {
